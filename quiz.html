@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Relaciones y Funciones</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body class="quiz-body">
+
+<nav class="menu-nav">
+    <a href="index.html"> LOGIN</a>
+    <a href="menu.html"> MENU</a>
+    <a href="temas.html"> TEMAS</a>
+</nav>
+
+<div class="quiz-container">
+
+    <h1>Quiz de Relaciones y Funciones</h1>
+
+    <div class="pregunta">
+        <p>1. ¿Qué es una relación?</p>
+        <label><input type="radio" name="p1" value="0"> Una ecuación</label>
+        <label><input type="radio" name="p1" value="1"> Una correspondencia entre conjuntos</label>
+        <label><input type="radio" name="p1" value="0"> Una operación matemática</label>
+    </div>
+
+    <div class="pregunta">
+        <p>2. ¿Qué representa A × B?</p>
+        <label><input type="radio" name="p2" value="1"> Producto cartesiano</label>
+        <label><input type="radio" name="p2" value="0"> Relación reflexiva</label>
+        <label><input type="radio" name="p2" value="0"> Función lineal</label>
+    </div>
+
+    <div class="pregunta">
+        <p>3. Una relación reflexiva cumple que:</p>
+        <label><input type="radio" name="p3" value="1"> Todo elemento se relaciona consigo mismo</label>
+        <label><input type="radio" name="p3" value="0"> Ningún elemento se relaciona consigo mismo</label>
+        <label><input type="radio" name="p3" value="0"> Todos son diferentes</label>
+    </div>
+
+    <div class="pregunta">
+        <p>4. Una relación simétrica significa:</p>
+        <label><input type="radio" name="p4" value="1"> Si A se relaciona con B, B con A</label>
+        <label><input type="radio" name="p4" value="0"> A nunca se relaciona con B</label>
+        <label><input type="radio" name="p4" value="0"> A siempre es igual a B</label>
+    </div>
+
+    <div class="pregunta">
+        <p>5. ¿Qué utiliza vértices y flechas?</p>
+        <label><input type="radio" name="p5" value="0"> Matriz</label>
+        <label><input type="radio" name="p5" value="1"> Grafo</label>
+        <label><input type="radio" name="p5" value="0"> Función</label>
+    </div>
+
+    <button onclick="calificarQuiz()" class="btn-quiz">
+        Calificar Quiz
+    </button>
+
+    <div id="resultado"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
